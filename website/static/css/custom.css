@@ -1,0 +1,314 @@
+html, body {
+    height: 100%;
+    overflow-x:hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.btn.btn-default {
+    background-color: #485563;
+    border: 2px solid #485563;
+    font-size: 24px;
+    padding:12px 48px;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+
+}
+
+.content-left{
+    font-family: arial !important;
+}
+
+.title {
+    font-size: 96px;
+}
+nav.navbar-default {
+    background-color: white;
+    border:none;
+    margin-bottom: 0;
+
+}
+.navbar-default .navbar-nav {
+    padding-right:15px;
+}
+.navbar-default .navbar-nav>li>a  {
+    font-family: Raleway-Light;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:7px 10px 6px;
+    margin:15px 2px;
+    border-radius:5px;
+}
+.navbar-default .navbar-nav>li {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav.navbar-right>li>a:hover,
+.navbar-default .navbar-nav.navbar-right>li.active>a {
+    background-color: #485563;
+    color:#fff;
+}
+
+.navbar-default .navbar-collapse {
+    border:none;
+}
+
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size:24px;
+}
+h3{
+    font-size: 21px;
+}
+
+
+#down-arrow-1:hover,
+#down-arrow-2:hover,
+#down-arrow-3:hover,
+#down-arrow-4:hover,
+#down-arrow-5:hover,
+#down-arrow-6:hover,
+#down-arrow-7:hover,
+#down-arrow-8:hover,
+#down-arrow-9:hover,
+#down-arrow-10:hover,
+#down-arrow-11:hover
+{
+    cursor:pointer;
+}
+
+/*INTERIOR PAGES*/
+
+#interior-pg-header {
+    height:250px;
+    background-color:lightgrey;
+    border-bottom:10px solid rgb(206,161,28);
+    border-top:10px solid rgb(49,49,49);
+}
+#interior-pg-header-text {
+    color:white;
+    font-family:Raleway-Light;
+}
+.header-image {
+    margin-top: 40px;
+    width:auto;
+    max-height: 120px;
+}
+
+.question-bullet {
+    height: 60px;
+}
+.question-text {
+    font-size: 21px;
+    margin:0;
+    padding:0;
+
+}
+.answer-bullet {
+    height: 40px;
+}
+.answer-text {
+    font-size: 18px;
+    padding:0;
+    margin:10px 4px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a:hover {
+    background-color: white;
+    color:#485563;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    height:200px;
+}
+    #footer-text {
+        color:white;
+        font-size:10px;
+        padding:60px;
+    }
+
+#left-monitor {
+    position:relative;
+    left:150px;
+    top:50px;
+}
+#right-monitor {
+    position:relative;
+    right:150px;
+    top:50px;
+}
+
+#interior-pg-content {
+    height:400px;
+}
+
+@media (max-width: 1200px) {
+    .section-6-mobile {
+        height:1250px;
+    }
+    .section-7-mobile {
+        height:1120px;
+    }
+    .section-8-mobile {
+        height:800px;
+    }
+    .section-9-mobile {
+        height:850px;
+    }
+    .section-10-mobile {
+        height:1100px;
+    }
+    #header-logo-wrap {
+        position: relative;
+        top:25% !important;
+    }
+}
+
+@media (max-width: 999px) {
+    #left-monitor {
+        position:relative;
+        left:50px;
+        top:50px;
+    }
+    #right-monitor {
+        position:relative;
+        right:50px;
+        top:50px;
+    }
+    .section-6-mobile {
+        height:1200px;
+    }
+    .section-7-mobile {
+        height:1120px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navi {
+        height:62px;
+    }
+    h1 {
+        font-size: 23px;
+    }
+    h2 {
+        font-size:21px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .section-6-mobile {
+        height:1100px;
+    }
+    .section-7-mobile {
+        height:1060px;
+    }
+    .section-8-mobile {
+        height:750px;
+    }
+    .section-9-mobile {
+        height:750px;
+    }
+    .section-10-mobile {
+        height:925px;
+    }
+    .section-11-mobile {
+        height:1475px;
+    }
+    #footer-text {
+        padding:30px;
+    }
+    #header-logo-wrap {
+        position: relative;
+        top:20% !important;
+    }
+}
+@media (max-width: 660px) {
+    .section-6-mobile {
+        height:1050px;
+    }
+    .section-7-mobile {
+        height:990px;
+    }
+    .section-8-mobile {
+        height:700px;
+    }
+    .section-9-mobile {
+        height:700px;
+    }
+    .section-10-mobile {
+        height:850px;
+    }
+    .section-11-mobile {
+        height:1425px;
+    }
+}
+@media (max-width: 570px) {
+    .section-6-mobile {
+        height:975px;
+    }
+    .section-7-mobile {
+        height:950px;
+    }
+    .section-8-mobile {
+        height:650px;
+    }
+    .section-9-mobile {
+        height:650px;
+    }
+    .section-10-mobile {
+        height:775px;
+    }
+    .section-11-mobile {
+        height:1375px;
+    }
+    #header-logo-wrap {
+        position: relative;
+        top:15% !important;
+    }
+}
+@media (max-width: 480px) {
+    .section-5-mobile {
+        height:750px;
+    }
+    .section-6-mobile {
+        height:900px;
+    }
+    .section-7-mobile {
+        height:930px;
+    }
+    .section-8-mobile {
+        height:600px;
+    }
+    .section-9-mobile {
+        height:650px;
+    }
+    .section-10-mobile {
+        height:700px;
+    }
+    .section-11-mobile {
+        height:1425px;
+    }
+    #header-logo-wrap {
+        position: relative;
+        top:10% !important;
+    }
+}
